@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+}
+.container{
+    width: 80rem;
+}
+header{
+    display: flex;
+    color: #FFF;
+    width: auto;
+    height: 4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+header a{
+    text-decoration: none;
+    color: #FFF;
+}
+.logo img{
+    width: 8rem;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    margin: 10px 30px 10px 30px;
+    text-decoration: none;
+    list-style: none;
+}
+.line01,
+.line03,
+.line04{
+    display: flex;
+}
+.box-left,
+.box-right{
+    width: 40rem;
+    margin-top: 2rem;
+}
+.box-left h5{
+    font-size: calc(1.275rem + .3vw)!important;
+    color: #0dcaf0;
+}
+.box-left h1{
+    font-size: calc(1.625rem + 3.5vw);
+}
+.box-left h1 span,
+.box-left h2 span{
+    background: -webkit-linear-gradient(90deg, rgba(13,202,240,1) 0%, rgba(2,198,210,1) 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.box-left p{
+    color: rgb(108, 117, 125);
+}
+.box-left button,
+.row .col-left button{
+    width: 15rem;
+    height: 4rem;
+    background: -webkit-linear-gradient(90deg, rgba(13,202,240,1) 0%, rgba(2,198,210,1) 100%);
+    border: none;
+    color: #FFF;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+.box-right{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.line02{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    height: 10rem;
+    background: linear-gradient(45deg, rgba(5,137,220,1) 0%, rgba(2,198,210,1) 100%);
+}
+.line02 .col,
+.line02 .col-m{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+.line02 .col img{
+    width: 3rem;
+}
+.line02 .col-m img{
+    width: 8rem;
+}
+.row{
+    display: flex;
+    width: 80rem;
+    justify-content: end;
+}
+.row .col-left{
+    width: 40%;
+    height: 30rem;
+}
+.row .col-left h5{
+    font-size: calc(1.275rem + .3vw)!important;
+    background: -webkit-linear-gradient(90deg, rgba(13,202,240,1) 0%, rgba(2,198,210,1) 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.row .col-left h2,
+.line03 .box-left h2,
+.line04 .box-left h2,
+.line06 .row h2{
+    margin-top: 1rem;
+    font-size: calc(1.625rem + .8vw);
+}
+.row .col-left h2 span,
+.line03 .beneficio h3 span,
+.line03 .beneficio p span{
+    background: -webkit-linear-gradient(90deg, rgba(13,202,240,1) 0%, rgba(2,198,210,1) 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.row .col{
+    width: 30%;
+    height: 30rem;
+    background-color: #151515;
+    border: 1px solid #2E2E2E;
+    padding: 4rem 3rem;
+}
+.row .col:hover{
+    background-color: #2E2E2E;
+}
+.row .col p,
+.row .col h2{
+    margin-bottom: 2rem;
+}
+.row .col .botao{
+    display: flex;
+    justify-content: end;
+}
+.row .col .botao button{
+    width: 4rem;
+    height: 4rem;
+    border: none;
+    font-size: 3rem;
+}
+.row .col .botao button p{
+    text-align: center;
+    margin: 0;
+}
+.row .col:hover button,
+.row .col:hover .botao button p{
+    background: linear-gradient(90deg, rgba(13,202,240,1) 0%, rgba(2,198,210,1) 100%);
+    color: #fff;
+}
+.line03{
+    margin-top: 7rem;
+}
+.line03 .box-left{
+    padding-right: 3rem;
+}
+.line03 .box-left p,
+.line04 .box-left p{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.line03 .beneficio{
+    display: flex;
+    justify-content: space-between;
+}
+.line03 .beneficio h3{
+    font-size: calc(1.625rem + .2vw);
+}
+.line04{
+    margin-top: 6rem;
+}
+.line05 .row{
+    width: 80rem;
+    justify-content: center;
+}
+.line05 .row .col{
+    width: 33.3%;
+    height: auto;
+    background-color: #000;
+}
+.line05 .row .col:hover{
+    background-color: #2E2E2E;
+}
+.line05 .row .col button{
+    display: block;
+    width: 4rem;
+    height: 4rem;
+    border: none;
+}
+.line05 .row .col button span{
+    font-size: 2rem;
+}
+.line05 .row .col h2{
+    margin-top: 2rem;
+}
+.line05 .row .col p{
+    color: rgb(108, 117, 125);
+}
+.line05 .row .col a{
+    text-decoration: none;
+    color: #FFF;
+}
+.line06{
+    margin-top: 7rem;
+    background: rgb(5,137,220);
+    background: linear-gradient(45deg, rgba(5,137,220,1) 0%, rgba(2,198,210,1) 100%);
+}
+.line06 .row{
+    display: block;
+    padding: 4rem;
+}
+.line06 .row h5{
+    font-size: calc(1.275rem + .3vw)!important;
+}
+.line06 .slide{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    padding-bottom: 4rem;
+}
+.line06 .swiper-slide{
+    width: 350px !important;
+    margin: 0 !important;
+}
+.line06 .slide .card{
+    width: 20rem;
+    height: 20rem;
+    background-color: #151515;
+    padding: 3rem 2rem;
+}
+.line06 .slide .card .text{
+    width: auto;
+    height: 70%;
+}
+#imagem{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.card footer img{
+    width: 3rem;
+    height: 3rem;
+}
+.card{
+    margin-top: 3rem;
+}
+.swiper-slide  .card p{
+    margin-left: 1rem;
+}
+#yeah{
+    color: rgb(108, 117, 125);
+}
+#foto{
+    border-radius: 50%;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+footer .i-dont-understand{
+    margin-top: -2.8rem;
+    margin-left: 4rem;
+    color: #fff;
+}
+.linha07{
+    display: flex;
+}
+.linha07 .row{
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    margin-top: 7rem;
+    background-color: rgb(5,137,220);
+    background: linear-gradient(45deg, rgba(5,137,220,1) 0%, rgba(2,198,210,1) 100%);
+    width: 80rem;
+    height: 22rem;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+.linha07 .row h2{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: calc(1.625rem + 2.5vw);
+}
+.linha07 .row button{
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    background-color: #FFF;
+    margin-bottom: 2rem;
+}
+.linha07 .row button p{
+    background: -webkit-linear-gradient(90deg, rgba(13,202,240,1) 0%, rgba(2,198,210,1) 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+footer .row{
+    justify-content: center;
+}
+footer .row .col{
+    height: auto;
+    background-color: #000;
+    border: none;
+}
+footer .row .col:hover{
+    background-color: #000;
+}
+footer .row .col span{
+    width: 2rem;
+    display: block;
+}
